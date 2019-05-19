@@ -1,0 +1,25 @@
+{
+    "name": "vaahcms/blog",
+    "description": "",
+    "authors": [
+        {
+            "name": "WebReinvent",
+            "email": "we@webreinvent.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VaahCms\\Modules\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "VaahCms\\Modules\\Blog\\": ""
+        }
+    }
+}
