@@ -9,6 +9,7 @@
     "author_name": "WebReinvent",
     "author_website": "https://www.webreinvent.com",
     "version": "v0.0.1",
+    "db_table_prefix": "vh_blog_",
     "is_sample_data_available": true,
     "providers": [
         "VaahCms\\Modules\\Blog\\Providers\\BlogServiceProvider"

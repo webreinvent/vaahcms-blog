@@ -20,24 +20,14 @@ class SetupController extends Controller
     //----------------------------------------------------------
     public static function activate($module)
     {
-
-
-
-
-        $response['status'] = 'failed';
-        $response['errors'][] = 'error';
+        $response['status'] = 'success';
         return $response;
-
-
     }
     //----------------------------------------------------------
     public static function deactivate()
     {
 
-
-
-        $response['status'] = 'failed';
-        $response['errors'][] = 'error';
+        $response['status'] = 'success';
         return $response;
 
     }
@@ -45,10 +35,7 @@ class SetupController extends Controller
     public static function importSampleData()
     {
 
-
-
-        $response['status'] = 'failed';
-        $response['errors'][] = 'error';
+        $response['status'] = 'success';
         return $response;
 
     }
@@ -56,9 +43,7 @@ class SetupController extends Controller
     public static function delete()
     {
 
-
-        $response['status'] = 'failed';
-        $response['errors'][] = 'error';
+        $response['status'] = 'success';
         return $response;
 
     }
