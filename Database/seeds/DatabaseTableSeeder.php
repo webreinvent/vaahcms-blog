@@ -4,7 +4,7 @@ namespace VaahCms\Modules\Blog\Database\Seeds;
 
 use Illuminate\Database\Seeder;
 
-class BlogTableSeeder extends Seeder
+class DatabaseTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
