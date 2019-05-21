@@ -1,19 +1,21 @@
 {
     "name": "Blog",
-    "alias": "blog",
-    "description": "",
-    "keywords": [],
-    "active": 1,
-    "order": 0,
+    "title": "Manage your blog and page",
+    "slug": "blog",
+    "thumbnail": "http://themepixels.me/dashforge/assets/img/placehold.jpg",
+    "excerpt": "Blog is a framework for creating, managing, and deploying customized content types and fields.",
+    "description": "Pods is a framework for creating, managing, and deploying customized content types and fields.",
+    "github_url": "https://github.com/webreinvent/vaahcms-sample-module",
+    "author_name": "WebReinvent",
+    "author_website": "https://www.webreinvent.com",
+    "version": "v0.0.1",
+    "is_sample_data_available": true,
     "providers": [
         "VaahCms\\Modules\\Blog\\Providers\\BlogServiceProvider"
     ],
-    "aliases": [],
     "extend": {
         "menu": {
             "order": 0
         }
-    },
-    "files": [],
-    "requires": []
+    }
 }
