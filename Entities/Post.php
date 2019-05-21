@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Blog\Entities;
+namespace VaahCms\Modules\Blog\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
