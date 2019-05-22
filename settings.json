@@ -5,18 +5,14 @@
     "thumbnail": "http://themepixels.me/dashforge/assets/img/placehold.jpg",
     "excerpt": "Blog is a framework for creating, managing, and deploying customized content types and fields.",
     "description": "Pods is a framework for creating, managing, and deploying customized content types and fields.",
-    "github_url": "https://github.com/webreinvent/vaahcms-sample-module",
+    "github_url": "https://github.com/webreinvent/vaahcms-module-blog",
     "author_name": "WebReinvent",
     "author_website": "https://www.webreinvent.com",
     "version": "v0.0.1",
-    "db_table_prefix": "vh_blog_",
     "is_sample_data_available": true,
+    "db_table_prefix": "vh_blog_",
     "providers": [
         "VaahCms\\Modules\\Blog\\Providers\\BlogServiceProvider"
     ],
-    "extend": {
-        "menu": {
-            "order": 0
-        }
-    }
+    "aside-menu-order": 1
 }
